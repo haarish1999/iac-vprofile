@@ -27,9 +27,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "harishownuse19"
+    bucket = "subbu2409"
     key    = "terraform.tfstate"
-    region = "us-east-2"
+    region = "us-east-1"
   }
 
   required_version = "~> 1.14"

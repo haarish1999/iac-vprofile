@@ -28,11 +28,11 @@ terraform {
 
   backend "s3" {
     bucket = "subbu2409"
-    key    = "terraform.tfstate"
+    key    = "terraform1.tfstate"
     region = "us-east-1"
   }
 
-  required_version = "~> 1.14"
+  required_version = "~> 1.13.3"
 }
 ##
 ##
